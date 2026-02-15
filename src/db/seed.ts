@@ -70,7 +70,7 @@ const nikeProducts = [
     description:
       "The Nike Metcon 9 is the gold standard for weight training with a wide, flat heel and firm rubber outsole for stability during lifts.",
     price: 150.0,
-    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c4950e7c-e12d-470f-b36f-5175c7cc5fe7/NIKE+METCON+9.png",
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3e4a4b0c-ce70-4a40-b25e-7f1a507e6c4a/NIKE+METCON+9.png",
     category: "Training",
   },
 ];
