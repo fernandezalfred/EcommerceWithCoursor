@@ -7,6 +7,11 @@ export const dynamic = "force-dynamic";
 export default async function Home() {
   const allProducts = await db.select().from(products);
 
+  const serializedProducts = allProducts.map((p) => ({
+    ...p,
+    createdAt: p.createdAt.toISOString(),
+  }));
+
   return (
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950">
       <header className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
@@ -16,7 +21,7 @@ export default async function Home() {
           </h1>
           <nav className="flex items-center gap-4">
             <span className="text-sm text-zinc-600 dark:text-zinc-400">
-              {allProducts.length} products
+              {serializedProducts.length} products
             </span>
           </nav>
         </div>
@@ -32,7 +37,7 @@ export default async function Home() {
           </p>
         </div>
 
-        <ProductList products={allProducts} />
+        <ProductList products={serializedProducts} />
       </main>
     </div>
   );
