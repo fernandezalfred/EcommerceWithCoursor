@@ -13,69 +13,71 @@ const nikeProducts = [
     name: "Nike Air Max 90",
     description:
       "The Nike Air Max 90 stays true to its OG running roots with the iconic Waffle outsole, stitched overlays and classic TPU accents.",
+    price: 135.0,
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/162a6319-5b63-4ef4-befd-c83f79b0963f/AIR+MAX+90.png",
+    category: "Running",
+  },
+  {
+    name: "Nike Air Force 1 Low Protro 1",
+    description:
+      "The radiance lives on in the Nike Air Force 1, the basketball original that puts a fresh spin on what you know best.",
+    price: 150.0,
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/44e570da-a0a5-4f2d-a26c-517bf7914278/AIR+FORCE+1+LOW+PROTRO.png",
+    category: "Lifestyle",
+  },
+  {
+    name: "Nike Air Max Plus",
+    description:
+      "The Nike Air Max Plus features a gradient upper with signature plastic caging and visible Max Air units for lightweight cushioning.",
+    price: 190.0,
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/94cef7bd-f891-443a-81fe-48c5d81682ff/NIKE+AIR+MAX+PLUS.png",
+    category: "Lifestyle",
+  },
+  {
+    name: "Nike Structure Plus",
+    description:
+      "The Nike Structure Plus offers a smooth, stable ride for everyday road running with responsive cushioning and a supportive fit.",
+    price: 170.0,
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/adc83762-a7aa-4ca8-bc83-6c3454a9b24e/NIKE+STRUCTURE+PLUS.png",
+    category: "Running",
+  },
+  {
+    name: "Nike Zoom Fly 6 Glam",
+    description:
+      "Built for speed on race day and tempo runs, the Zoom Fly 6 Glam delivers a propulsive ride with a full-length carbon fiber plate.",
+    price: 190.0,
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cdf50c3f-02c5-4635-89a4-b5c31ffac397/ZOOM+FLY+6+GLAM.png",
+    category: "Running",
+  },
+  {
+    name: "Air Jordan 1 Low SE",
+    description:
+      "Inspired by the original that debuted in 1985, the Air Jordan 1 Low SE offers a clean, classic look that goes with everything.",
     price: 130.0,
-    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/wzitsrb4oucx4dohp9a0/W+AIR+MAX+90.png",
-    category: "Running",
-  },
-  {
-    name: "Nike Air Force 1 '07",
-    description:
-      "The radiance lives on in the Nike Air Force 1 '07, the basketball original that puts a fresh spin on what you know best.",
-    price: 115.0,
-    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/AIR+FORCE+1+%2707.png",
-    category: "Lifestyle",
-  },
-  {
-    name: "Nike Dunk Low Retro",
-    description:
-      "Created for the hardwood but taken to the streets, the Nike Dunk Low Retro returns with crisp overlays and original team colors.",
-    price: 115.0,
-    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b1bcbca4-e853-4df7-b133-4e5dab9f834f/NIKE+DUNK+LOW+RETRO.png",
-    category: "Lifestyle",
-  },
-  {
-    name: "Nike Pegasus 41",
-    description:
-      "Responsive cushioning in the Pegasus provides an energized ride for everyday road running. Experience lighter-weight energy return with dual Air Zoom units.",
-    price: 140.0,
-    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a667a5b0-e14d-4be6-8e46-3490984e1ece/NIKE+PEGASUS+41.png",
-    category: "Running",
-  },
-  {
-    name: "Nike Blazer Mid '77 Vintage",
-    description:
-      "In the '77, Nike was just getting started. The Blazer Mid '77 Vintage harnesses the old-school look with a vintage midsole finish.",
-    price: 105.0,
-    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fb7eda3c-5ac8-4d05-a18f-1c2c5e82e36e/BLAZER+MID+%2777+VINTAGE.png",
-    category: "Lifestyle",
-  },
-  {
-    name: "Nike Air Jordan 1 Retro High OG",
-    description:
-      "The Air Jordan 1 Retro High remakes the classic sneaker with new colors and fresh details, while icons like the Wings logo and Nike Air remain.",
-    price: 180.0,
-    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fd17b420-b388-4c8a-aaaa-e0a98ddf175f/W+AIR+JORDAN+1+RETRO+HIGH+OG.png",
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d910b1a3-3fb8-4a47-a6d7-6addca152f8c/AIR+JORDAN+1+LOW+SE.png",
     category: "Basketball",
   },
   {
-    name: "Nike Vomero 18",
+    name: "Nike Air Max 270 Premium",
     description:
-      "Cushioned comfort for long runs. The Vomero 18 delivers a plush, smooth ride with ZoomX foam and a wider forefoot.",
-    price: 160.0,
-    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c4950e7c-e12d-470f-b36f-5175c7cc5fe7/NIKE+VOMERO+18.png",
-    category: "Running",
+      "The Air Max 270 Premium features Nike's biggest heel Air unit yet for a super-soft ride that feels as impossible as it looks.",
+    price: 180.0,
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1556bd4c-d914-4fe4-bbaf-8f8b704528f2/AIR+MAX+270+PREMIUM.png",
+    category: "Lifestyle",
   },
   {
-    name: "Nike Metcon 9",
+    name: "Nike Vaporfly 4",
     description:
-      "The Nike Metcon 9 is the gold standard for weight training with a wide, flat heel and firm rubber outsole for stability during lifts.",
-    price: 150.0,
-    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3e4a4b0c-ce70-4a40-b25e-7f1a507e6c4a/NIKE+METCON+9.png",
-    category: "Training",
+      "Designed to help you chase new goals and records, the Vaporfly 4 builds on the legacy of the shoe that changed marathon racing forever.",
+    price: 270.0,
+    image: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/685cdbbd-24db-4ece-b401-f32c48b04392/ZOOMX+VAPORFLY+NEXT%25+4.png",
+    category: "Running",
   },
 ];
 
 async function seed() {
+  console.log("Clearing existing products...");
+  await db.delete(products);
   console.log("Seeding products...");
   await db.insert(products).values(nikeProducts);
   console.log(`Seeded ${nikeProducts.length} Nike products.`);
